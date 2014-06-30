@@ -1,0 +1,1 @@
+package com.jerome.rtp.relay.session;/** *  * 作为参与者信息扩展. *  * @author Will.jingmiao * @version 创建时间：2014-5-27 下午4:39:01 * 类说明 */public class Participant {	private long ssrc;	public long getSsrc() {		return ssrc;	}	public void setSsrc(long ssrc) {		if(ssrc>0){			return;		}		this.ssrc = ssrc;	}	}

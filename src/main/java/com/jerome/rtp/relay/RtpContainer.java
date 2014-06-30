@@ -1,0 +1,1 @@
+package com.jerome.rtp.relay;import com.jerome.rtp.relay.session.RtpSession;/** * 容器接口 *  * @author Will.jingmiao * @version 创建时间：2014-5-29 下午4:49:14 * 类说明 */public interface RtpContainer {		RtpSession createMultimediaSession();		RtpSession createMultimediaSession(int rtp,int rtcp);		void stopSession(RtpSession session);		String getLocalhost();	}

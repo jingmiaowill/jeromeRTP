@@ -1,0 +1,1 @@
+package com.jerome.rtp.relay.utils;/** * @author Will.jingmiao * @version 创建时间：2014-6-12 下午2:59:43 * 类说明 */public interface Media {	String getType();	int getPort();	void update(int port);}
